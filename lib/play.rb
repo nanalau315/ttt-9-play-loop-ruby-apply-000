@@ -37,8 +37,10 @@ end
 
 # Define your play method below
 
+allow_to_move_times = turn(board)
 def play(board)
-  while 
+  while allow_to_move_times < 10
+  
 
 
 
